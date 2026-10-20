@@ -1,0 +1,89 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Distribution / Packaging ──────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ── Saved Models (large binaries — use DVC or cloud storage for large files) ──
+# Comment out below lines if models are small enough to commit directly
+# models/*.pkl
+# models/*.joblib
+
+# ── Large Data Files (store in DVC, S3, or GDrive for files > 100MB) ─────────
+# data/raw/
+# *.csv
+# *.xlsx
+# *.xls
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDEs & Editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ── Logs & Temp Files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+
+# ── Environment & Secrets ────────────────────────────────────────────────────
+.env
+.env.*
+secrets.yaml
+secrets.json
+config/local_settings.py
+
+# ── Streamlit Cache & Secrets ────────────────────────────────────────────────
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# ── pytest / Testing ──────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── mypy ──────────────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ── TF-IDF / NLP artefacts ───────────────────────────────────────────────────
+# *.pkl      # Uncomment if you don't want to commit any pickled objects
